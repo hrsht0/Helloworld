@@ -1,5 +1,6 @@
 <?php
 session_start();
+# looks like a complicated code. I am just here for my pull request
 include("Assets/php/dbconfig.php");
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
